@@ -5,7 +5,7 @@ Librairie to print text in different colors with ease
 In this labraire we will define different function to print text in colors.
 
 ## pcol_easy(char text_color, char back_ground_color, char decoration);
-First parameter is corresponding to the text color, by default *WHITE*:
+The first parameter is corresponding to the text color, by default *WHITE*:
 - K = BLACK
 - R = RED
 - G = GREEN
@@ -15,7 +15,7 @@ First parameter is corresponding to the text color, by default *WHITE*:
 - C = CYAN
 - W = WHITE
 
-The second parameter is corresponding to the backgroud color, by default *BLACK*:
+The second parameter is corresponding to the background color, by default *BLACK*:
 - K = BLACK
 - R = RED
 - G = GREEN
@@ -26,4 +26,6 @@ The second parameter is corresponding to the backgroud color, by default *BLACK*
 - W = WHITE
 
 The third parameter is corresponding to the decoration, by default *no decoration*:
- 
+- B = BOLD
+- U = UNDERLINE
+- D = NO DECORATION
