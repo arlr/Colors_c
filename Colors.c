@@ -6,11 +6,11 @@
 
 =============================================================================================*/
 
-
+/* Includes */
 #include <stdio.h>
 
-int main(){	
-	
-	return 0;
-}
+/* Defines */
 
+/* Functions prototype */
+
+/* Functions body */
