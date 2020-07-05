@@ -10,6 +10,9 @@
 #include <stdio.h>
 
 /* Defines */
+#define ESCAPE_CODE_COLOR_SIZE 10
+#define ESCAPE_CODE_DECORATION_SIZE 9
+
 #define DEFAULT {0x5C,"u","0","0","1","b","[","0","m"}	// Default colors "\u001b[0m"
 
 
@@ -50,8 +53,21 @@ int pcol_easy(char * ac_data_to_print, char c_text_color, char c_back_ground_col
 int pcol_easy(char * ac_data_to_print, char c_text_color, char c_back_ground_color, char c_decoration){
 	/* Variable declaration */
 	int i_status = 1;	// Return status by default return error
+	char ac_text_setter[ESCAPE_CODE_COLOR_SIZE];	//ESCAPE codes for text color
+	char ac_bg_setter[ESCAPE_CODE_COLOR_SIZE];	//ESCAPE codes for background color
+	char ac_dec_setter[ESCAPE_CODE_DECORATION_SIZE];	//ESCAPE codes for decoration
+
+	/* SET TEXT Color */
+	switch (c_text_color)
+	{
+	case 'K':
+		ac_text_setter = {0x5C,"u","0","0","1","b","[","3","0","m"};
 
 	
+	default:
+
+	}
+
 
 	return i_status;
 }
