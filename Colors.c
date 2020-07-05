@@ -38,6 +38,7 @@
  * B = BOLD
  * U = UNDERLINE
  * D = NO DECORATION
+ * @return return 0 when no issues
  */
 int pcol_easy(char * ac_data_to_print, char c_text_color, char c_back_ground_color, char c_decoration)
 /* Functions body */
