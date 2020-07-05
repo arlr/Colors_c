@@ -4,7 +4,7 @@ Librairie to print text in different colors with ease
 # Functions definition
 In this library we will define different function to print text in colors.
 
-## pcol_easy(char * data_to_print, char text_color, char back_ground_color, char decoration);
+## pcol_easy(char * ac_data_to_print, char c_text_color, char c_back_ground_color, char c_decoration);
 The first parameter is corresponding to the string to print
 
 The second parameter is corresponding to the text color, by default *WHITE*:
