@@ -140,13 +140,13 @@ int text_col(char c_color, char *buf){
 for (unsigned char i = 0; i < ESCAPE_CODE_COLOR_SIZE; i++)
 {
 	buf[i] = local_buf[i];
+	/* Update the status */
+	i_status = 0;
 
 #ifdef DEBUG
 	printf("%c", local_buf[i]);
 #endif
 }
-
-
 	printf("End %s\n", __FUNCTION__);
 	return i_status;
 }
